@@ -36,12 +36,11 @@ nav ul li {
     padding: 20px 50px;
 }
 
-/* Add this rule to set the default color of the icons */
 .icon {
     font-size: 24px;
     padding-inline: 15px;
     text-decoration: none;
-    color: white; /* Set the desired color for the icons */
+    color: white; 
 }
 
 .icon:hover {
@@ -49,6 +48,11 @@ nav ul li {
 }
 
 .header-text {
+    background-image: url(images/joeputer.mp4);
+    background-position: right;
+    background-size: 500px 370px;
+    background-repeat: no-repeat;
+    width:95%;
     display: flex;
     margin-top:5%;
     font-size:30px;
@@ -85,4 +89,19 @@ nav ul li {
     color:white;
     position: center;
     padding:10px 30px;
+}
+
+#education {
+    text-align:center;
+    padding-top:20px;
+}
+
+#experience {
+    text-align:center;
+    padding-top:20px;
+}
+
+#projects {
+    text-align:center;
+    padding-top:20px;
 }
