@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ishmam Fardin Portfolio</title>
+        <meta name="description" content="digital portfolio website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div>
+                    <a href="#" target="_blank"><img src="./images/linkedinpfp.jpg" class="logo"></a>
+                </div>
+                <div class="sections-list">
+                <ul>
+                    <a href="#aboutme"><li class="topics">About Me</li></a>
+                    <a href="#"><li class="topics">Education</li></a>
+                    <a href="#"><li class="topics">Experience</li></a>
+                    <a href="#"><li class="topics">Projects</li></a>
+                </ul>
+                </div>
+                <div class="icons">
+                    <a href='https://www.linkedin.com/in/ishmam-fardin-3861ba253/' target="_blank"><ion-icon name="logo-linkedin" class="icon"></ion-icon></a>
+                    <a href="https://github.com/IshmamF" target="_blank"><ion-icon name="logo-github" class="icon"></ion-icon></a>
+                </div>
+            </nav>
+            <div class="header-text">
+                <span id="random"><p>Software Engineer</p>
+                    <h1 style="font-size: 60px;">Hello there, my name is <span style="color:dodgerblue;">Ishmam</span><br>from <span style="color:forestgreen;">New York City</span></h1>
+                </span>
+                <img src="./images/joeputer" class="background-pic">
+            </div>
+        </header>
+
+        <section id="aboutme">
+            <h2>About Me</h2>
+            <div class="longtext">
+                <p>
+                    I was born in Bangladesh and currently a student at City College of New York.
+                    I am expecting to graduate 2025 with a Bachelors of Engineering in Computer Engineering and a minor in Business Administration.
+                    I want to continue to develop my skills as a software engineer and inevitably make impact on millions of people with my code. 
+                    I enjoy putting myself in uncomfortable situations as that's when I see the most growth. 
+                    On my free time, I like conversing with people, watch anime, play soccer, running, and go for walks.
+                    I love working with technology, both software and hardware, as it's fascinating to see different things function together to give a certain result.
+                    One of my favorite and most impactful book of all time is "Can't Hurt Me" by David Goggins.
+                </p> 
+            </div>
+            <div class="resume">
+                <a href="IshmamFardin_Resume.pdf" download target="_blank">Download Resume</a>
+            </div>
+        </section>
+
+        <section>
+
+        </section>
+        
+        <script src="" async defer></script>
+        <script>
+            const navigationLinks = document.querySelectorAll('nav a');
+            navigationLinks.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const target = document.querySelector(link.getAttribute('href'));
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

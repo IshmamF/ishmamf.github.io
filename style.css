@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.logo {
+    height: 48px;
+    border-radius:50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color:white;
+    font-size: 20px
+}
+
+.topics {
+    color:white;
+}
+
+.topics:hover {
+    color:dodgerblue;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 50px;
+}
+
+/* Add this rule to set the default color of the icons */
+.icon {
+    font-size: 24px;
+    padding-inline: 15px;
+    text-decoration: none;
+    color: white; /* Set the desired color for the icons */
+}
+
+.icon:hover {
+    color:dodgerblue;
+}
+
+.header-text {
+    display: flex;
+    margin-top:5%;
+    font-size:30px;
+}
+
+.background-pic {
+    padding-left: 300px;
+    height: 400px;
+}
+
+#aboutme {
+    text-align:center;
+}
+
+.longtext {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume {
+    padding-top:30px;
+}
+
+.resume a{
+    align-items:center;
+    height:50px;
+    text-decoration: none;
+    border: dodgerblue 2px solid;
+    background:black;
+    border-radius:35px;
+    letter-spacing:1px;
+    color:white;
+    position: center;
+    padding:10px 30px;
+}
